@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="icons/themify-icons.css">
+  <title>Vinícius Nunes - Portfólio</title>
+</head>
+
+<body>
+
+  <nav>
+    <ul>
+      <a href="#"><li>SOBRE</li></a>
+      <a href="#trabalhos"><li>TRABALHOS</li></a>
+      <a href="#contato"><li>CONTATO</li></a>
+    </ul>
+  </nav>
+
+  <div class="apresentacao">
+    <div class="texto">
+      <h1 class="titulo">Olá, eu sou o Vinícius 👨🏻‍💻</h1>
+      <p>Tenho 21 anos, estudo Análise e Desenvolvimento de Sistema. Sou apaixonado por tecnologias e sempre procuro aprender mais e sempre dar o meu melhor em meus projetos.</p>
+        <a href="#contato"><button>ENTRE EM CONTATO COMIGO</button></a>
+    </div>
+    <img src="img/me.png" alt="Vinícius Nunes">
+  </div>
+
+  <div class="texto" id="trabalhos">
+    <h1 class="titulo">Alguns dos meus trabalhos :)</h1>
+  </div>
+
+  <div class="trabalhos">
+    <ul>
+      <li>
+        <h3>Gerenciador de inscrições eventos FVC</h3>
+        <p>Sistema para gerenciar inscrições e gerar certificados para eventos da FVC</p>
+        <img src="img/eventos.ivc.br.png" alt="Gerenciador de inscrições eventos FVC">
+        <a href="http://eventos.ivc.br" target="_blank"><button>VISITAR</button></a>
+      </li>
+      <li>
+        <h3>Gerenciador de inscrições eventos FVC</h3>
+        <p>Sistema para gerenciar inscrições e gerar certificados para eventos da FVC</p>
+        <img src="img/eventos.ivc.br.png" alt="Gerenciador de inscrições eventos FVC">
+        <button>VISITAR</button>
+      </li>
+    </ul>
+  </div>
+
+  <div class="contato" id="contato">
+    <div class="texto">
+      <h1 class="titulo">Entre em contato comigo 😀</h1>
+    </div>
+    <div class="corpo">
+      <input type="text" placeholder="Nome" id="nome">
+      <div class="menor">
+        <input type="email" placeholder="E-mail" id="email">
+        <input type="text" placeholder="Assunto" id="assunto">
+      </div>
+      <textarea type="text" placeholder="Mensagem" id="mensagem"></textarea>
+      <button id="sendMail" type="submit">ENVIAR</button>
+    </div>
+    <div class="redes">
+      <ul>
+        <a href="https://www.facebook.com/vinicius.nunes.562329/" target="_blank" rel="Facebook">
+          <li class="facebook">
+            <span class="ti-facebook"></span>
+          </li>
+        </a>
+        <a href="https://www.instagram.com/nunes__vini/" target="_blank" rel="Instagram">
+          <li class="instagram">
+            <span class="ti-instagram"></span>
+          </li>
+        </a>
+        <a href="https://github.com/viniciuscbb/" target="_blank" rel="GitHub">
+          <li class="github">
+            <span class="ti-github"></span>
+          </li>
+        </a>
+      </ul>
+    </div>
+  </div>
+</body>
+<script src="javascript/index.js"></script>
+
+</html>
