@@ -9,7 +9,7 @@ var sendMail = document.getElementById('sendMail').onclick = function () {
     alert('Email e mensagem devem ser preenchidos');
   } else {
     window.open(
-      `mailto:${email}?subject=${assunto}&body=Olá Vinícius, eu sou o ${nome}!  ${mensagem}`
+      `mailto:vnunes13@gmail.com?subject=${assunto}&body=Olá Vinícius, eu sou o ${nome}!  ${mensagem}`
     )
   }
 }
