@@ -5,12 +5,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
   <link rel="stylesheet" href="icons/themify-icons.css">
   <title>Vinícius Nunes - Portfólio</title>
 </head>
 
 <body>
-
+  <div id="progressbar"></div>
+  <div id="scrollPath"></div>
   <nav>
     <ul>
       <a href="#sobre"><li>SOBRE</li></a>
@@ -21,8 +23,8 @@
 
   <div class="apresentacao"id="sobre">
     <div class="texto">
-      <h1 class="titulo">Olá, eu sou o <b>Vinícius</b> 👨🏻‍💻</h1>
-      <p>Tenho 21 anos, estudo Análise e Desenvolvimento de Sistema. Sou apaixonado por tecnologias e sempre procuro aprender mais e sempre dar o meu melhor em meus projetos.</p>
+      <h1 class="titulo animated fadeInUp">Olá, eu sou o <b>Vinícius</b> 👨🏻‍💻</h1>
+      <p class="animated flipInX">Tenho 21 anos, estudo Análise e Desenvolvimento de Sistema. Sou apaixonado por tecnologias e sempre procuro aprender mais e sempre dar o meu melhor em meus projetos.</p>
         <a href="#contato"><button>ENTRE EM CONTATO COMIGO</button></a>
     </div>
     <img src="img/me.png" alt="Vinícius Nunes">
@@ -34,13 +36,13 @@
 
   <div class="trabalhos">
     <ul>
-      <li>
+      <li id="card1">
         <h3>Gerenciador de inscrições eventos FVC</h3>
         <p>Sistema para gerenciar inscrições e gerar certificados para eventos da FVC</p>
         <img src="img/eventos.ivc.br.png" alt="Gerenciador de inscrições eventos FVC">
         <a href="http://eventos.ivc.br" target="_blank"><button>VISITAR</button></a>
       </li>
-      <li>
+      <li id="card2">
         <h3>Gerenciador de inscrições eventos FVC</h3>
         <p>Sistema para gerenciar inscrições e gerar certificados para eventos da FVC</p>
         <img src="img/eventos.ivc.br.png" alt="Gerenciador de inscrições eventos FVC">
@@ -51,7 +53,7 @@
 
   <div class="contato" id="contato">
     <div class="texto">
-      <h1 class="titulo">Entre em <b>contato</b> comigo 😀</h1>
+      <h1 class="titulo" id="contatoTitulo">Entre em <b>contato</b> comigo 😀</h1>
     </div>
     <div class="corpo">
       <input type="text" placeholder="Nome" id="nome">
@@ -64,17 +66,17 @@
     </div>
     <div class="redes">
       <ul>
-        <a href="https://www.facebook.com/vinicius.nunes.562329/" target="_blank" rel="Facebook">
+        <a href="https://www.facebook.com/vinicius.nunes.562329/" target="_blank" rel="Facebook" title="Acesse meu perfil no Facebook">
           <li class="facebook">
             <span class="ti-facebook"></span>
           </li>
         </a>
-        <a href="https://www.instagram.com/nunes__vini/" target="_blank" rel="Instagram">
+        <a href="https://www.instagram.com/nunes__vini/" target="_blank" rel="Instagram" title="Acesse meu perfil no Instagram">
           <li class="instagram">
             <span class="ti-instagram"></span>
           </li>
         </a>
-        <a href="https://github.com/viniciuscbb/" target="_blank" rel="GitHub">
+        <a href="https://github.com/viniciuscbb/" target="_blank" rel="GitHub" title="Acesse meu perfil no  GitHub">
           <li class="github">
             <span class="ti-github"></span>
           </li>
