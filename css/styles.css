@@ -220,50 +220,6 @@ button:hover{
   line-height: 20px;
 }
 
-@media screen and (max-width: 420px){
-  .texto{
-    margin: 0 20px;
-
-  }
- 
-  .titulo{
-    font-size: 40px;
-  }
-  .apresentacao{
-    height: 111vh; 
-    display: flex;
-    flex-direction: column;
-  }
-
-  .apresentacao img{
-    position: absolute;
-    width: 90%;
-    right: 0px;
-    top:69%;
-  }
-
-  .apresentacao p{
-    width: 80%;
-  }
-  .trabalhos{
-    height: 150vh;
-  }
-  .trabalhos ul{
-    grid-template-columns: 1fr;
-    margin-left: -30px;
-    width: 300px;
-  }
-
-  .corpo input, textarea{
-    width: 93%;
-  }
-
-  .redes ul{
-    margin-top: 50px;
-    margin-left: -40px;
-  }
-}
-
 
 #scrollPath{
   position: fixed;
@@ -310,4 +266,58 @@ button:hover{
   height: 100%;
   background: linear-gradient(to top, #00539b, #00b9ad);
   filter: blur(30px);
+}
+
+@media screen and (max-width: 420px){
+  .texto{
+    margin: 0 20px;
+
+  }
+ 
+  .titulo{
+    font-size: 40px;
+  }
+  .apresentacao{
+    height: 111vh; 
+    display: flex;
+    flex-direction: column;
+  }
+
+  .apresentacao img{
+    position: absolute;
+    width: 90%;
+    right: 0px;
+    top:69%;
+  }
+
+  .apresentacao p{
+    width: 80%;
+  }
+  .trabalhos{
+    height: 150vh;
+  }
+  .trabalhos ul{
+    grid-template-columns: 1fr;
+    margin-left: -30px;
+    width: 300px;
+  }
+
+  .corpo input, textarea{
+    width: 93%;
+  }
+
+  .redes ul{
+    margin-top: 50px;
+    margin-left: -40px;
+  }
+  #progressbar{
+    height: 6px;
+  }
+  #progressbar:before{
+    filter: blur(20px);
+  }
+  #progressbar:after{
+    filter: blur(60px);
+  }
+
 }
