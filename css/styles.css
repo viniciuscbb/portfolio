@@ -231,7 +231,10 @@ button:hover{
   }
 
   .apresentacao img{
-    margin-right: -12px;
+    position: absolute;
+    width: 90%;
+    right: 0px;
+    top:69%;
   }
 
   .apresentacao p{
