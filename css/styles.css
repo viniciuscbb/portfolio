@@ -5,6 +5,10 @@ body{
   background-color: #34495e;
 }
 
+b{
+  color: #00a8ff;
+}
+
 nav{
   box-sizing: border-box;
   background-color: #2c3e50;
