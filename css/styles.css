@@ -214,3 +214,44 @@ button:hover{
   overflow: auto;
   line-height: 20px;
 }
+
+@media screen and (max-width: 420px){
+  .texto{
+    margin: 0 20px;
+
+  }
+ 
+  .titulo{
+    font-size: 40px;
+  }
+  .apresentacao{
+    height: 111vh; 
+    display: flex;
+    flex-direction: column;
+  }
+
+  .apresentacao img{
+    margin-right: -12px;
+  }
+
+  .apresentacao p{
+    width: 80%;
+  }
+  .trabalhos{
+    height: 150vh;
+  }
+  .trabalhos ul{
+    grid-template-columns: 1fr;
+    margin-left: -30px;
+    width: 300px;
+  }
+
+  .corpo input, textarea{
+    width: 93%;
+  }
+
+  .redes ul{
+    margin-top: 50px;
+    margin-left: -40px;
+  }
+}

@@ -12,5 +12,4 @@ var sendMail = document.getElementById('sendMail').onclick = function () {
       `mailto:${email}?subject=${assunto}&body=Olá Vinícius, eu sou o ${nome}!  ${mensagem}`
     )
   }
-
 }
