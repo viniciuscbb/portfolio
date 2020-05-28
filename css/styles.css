@@ -304,20 +304,21 @@ button:hover{
     font-size: 40px;
   }
   .apresentacao{
-    height: 111vh; 
+    height: 120vh; 
     display: flex;
     flex-direction: column;
   }
 
   .apresentacao img{
     position: absolute;
-    width: 90%;
+    width: 70%;
     right: 0px;
-    top:69%;
+    top:99%;
   }
 
   .apresentacao p{
     width: 80%;
+    font-size: 17px;
   }
   .trabalhos{
     height: 150vh;
@@ -328,8 +329,17 @@ button:hover{
     width: 300px;
   }
 
+  .contato{
+    height: 100%;
+  }
+
   .corpo input, textarea{
-    width: 93%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin: 10px;
+
   }
 
   .redes ul{
@@ -344,6 +354,9 @@ button:hover{
   }
   #progressbar:after{
     filter: blur(60px);
+  }
+  nav ul li{
+    font-size: 12px;
   }
 
 }
