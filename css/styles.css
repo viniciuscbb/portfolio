@@ -166,9 +166,13 @@ button:hover{
   background-size: 100% 200px;
 }
 #card2{
-  background-image: url('../img/eventos.ivc.br.png');
+  background-image: url('../img/rhplus.png');
   background-repeat: no-repeat;
   background-size: 100% 200px;
+}
+
+#card2 button{
+  margin-top: 15px;
 }
 
 .redes ul li{
